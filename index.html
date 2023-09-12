@@ -10,17 +10,37 @@
   <link rel="stylesheet" href="CSS/style.css">
   <title>Document</title>
 </head>
-<body>
+<body class="bg-dark d-flex ">
   <div class="container my-5">
 
+    <div class="card w-100" style="width: 18rem;">
+      <img class="card-img-top w-100" src="img/mail.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Controlla se la tua mail fa parte dei vincitori</h5>
+        
+        <input id="form-mail" class="form-control form-control-lg" type="text" placeholder="Inserisci la tua mail">
+        <h1 id="test"></h1>
+        <a href="#" class="mt-5 btn-mail btn btn-primary">Controlla mail</a>
+      </div>
+    </div>
 
-    <h1 id="test"></h1>
   </div>
   
 
-  <div class="container my-5">
+  <div class="container-dadi container my-5">
 
-    <button id="roll" type="button" class="btn btn-primary">TENTA LA FORTUNA</button>
+    <div class="card w-100 m-auto" style="width: 18rem;">
+      <img class="card-img-top w-100" src="img/dadi.jpg" alt="Card image cap">
+      <div class="card-body text-center">
+        <h3 class="card-title">IL GIOCO DEI DADI</h3>
+        <div class="d-none show-roll">IL TUO TIRO: <span></span></div>
+        <div class="d-none show-roll-2">IL TIRO DEL BANCO: <span></span></div>
+        <div class="d-none show-winner">RISULTATO: <span></span></div>
+
+        <button id="roll" type="button" class="btn btn-primary">TENTA LA FORTUNA</button>
+      </div>
+    </div>
+   
   </div>
 
 
